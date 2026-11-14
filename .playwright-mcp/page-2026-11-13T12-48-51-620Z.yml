@@ -1,0 +1,163 @@
+- generic [ref=e2]:
+  - navigation [ref=e3]:
+    - generic [ref=e4]:
+      - link "🧠 MindCheck" [ref=e5] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e6]: 🧠
+        - text: MindCheck
+      - generic [ref=e7]:
+        - link "About" [ref=e8] [cursor=pointer]:
+          - /url: "#about"
+        - link "Start prediction" [ref=e9] [cursor=pointer]:
+          - /url: "#predict"
+  - banner [ref=e10]:
+    - generic [ref=e11]:
+      - generic [ref=e12]: ✨ Machine learning powered
+      - heading "How is social media affecting your mental health?" [level=1] [ref=e13]
+      - paragraph [ref=e14]: Share a few details about your daily habits — screen time, sleep, study and activity — and our Random Forest model, trained on student survey data, estimates your mental health score.
+      - link "Get my score" [ref=e16] [cursor=pointer]:
+        - /url: "#predict"
+      - list [ref=e17]:
+        - listitem [ref=e18]:
+          - strong [ref=e19]: "12"
+          - generic [ref=e20]: quick questions
+        - listitem [ref=e21]:
+          - strong [ref=e22]: 1–10
+          - generic [ref=e23]: score scale
+        - listitem [ref=e24]:
+          - strong [ref=e25]: <1s
+          - generic [ref=e26]: instant result
+  - main [ref=e27]:
+    - generic [ref=e28]:
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "Your profile" [level=2] [ref=e31]
+          - paragraph [ref=e32]: Fill in all fields to get your prediction.
+        - generic "0 of 12 fields completed" [ref=e33]: 0/12
+      - group "1 👤 About you Basic background details" [ref=e36]:
+        - generic [ref=e37]:
+          - generic [ref=e38]: "1"
+          - generic [ref=e39]:
+            - generic [ref=e40]: 👤 About you
+            - generic [ref=e41]: Basic background details
+        - generic [ref=e42]:
+          - generic [ref=e43]:
+            - generic [ref=e44]: Age
+            - spinbutton "Age" [ref=e46]
+            - generic [ref=e47]: Years, 10–100
+          - generic [ref=e48]:
+            - generic [ref=e49]: Gender
+            - combobox "Gender" [ref=e51] [cursor=pointer]:
+              - option "Select gender" [disabled] [selected]
+              - option "Male"
+              - option "Female"
+          - generic [ref=e52]:
+            - generic [ref=e53]: Country
+            - combobox "Country" [ref=e55] [cursor=pointer]:
+              - option "Select country" [disabled] [selected]
+              - option "India"
+              - option "USA"
+              - option "Canada"
+              - option "Australia"
+              - option "UK"
+              - option "Germany"
+              - option "Mexico"
+              - option "Turkey"
+              - option "France"
+              - option "Other"
+          - generic [ref=e56]:
+            - generic [ref=e57]: Academic level
+            - combobox "Academic level" [ref=e59] [cursor=pointer]:
+              - option "Select level" [disabled] [selected]
+              - option "High School"
+              - option "Undergraduate"
+              - option "Graduate"
+      - group "2 📱 Social media How you use your phone and apps" [ref=e60]:
+        - generic [ref=e61]:
+          - generic [ref=e62]: "2"
+          - generic [ref=e63]:
+            - generic [ref=e64]: 📱 Social media
+            - generic [ref=e65]: How you use your phone and apps
+        - generic [ref=e66]:
+          - generic [ref=e67]:
+            - generic [ref=e68]: Most used platform
+            - combobox "Most used platform" [ref=e70] [cursor=pointer]:
+              - option "Select platform" [disabled] [selected]
+              - option "Facebook"
+              - option "LinkedIn"
+              - option "Instagram"
+              - option "Snapchat"
+              - option "Twitter"
+              - option "YouTube"
+              - option "TikTok"
+              - option "LINE"
+              - option "KakaoTalk"
+              - option "VKontakte"
+              - option "WhatsApp"
+              - option "WeChat"
+          - generic [ref=e71]:
+            - generic [ref=e72]: Main purpose
+            - combobox "Main purpose" [ref=e74] [cursor=pointer]:
+              - option "Select purpose" [disabled] [selected]
+              - option "Networking"
+              - option "Education"
+              - option "Entertainment"
+              - option "News"
+          - generic [ref=e75]:
+            - generic [ref=e76]: Daily social media
+            - generic [ref=e77]:
+              - spinbutton "Daily social media" [ref=e78]
+              - generic: hrs
+            - generic [ref=e79]: Hours per day
+          - generic [ref=e80]:
+            - generic [ref=e81]: Phone unlocks
+            - generic [ref=e82]:
+              - spinbutton "Phone unlocks" [ref=e83]
+              - generic: ×
+            - generic [ref=e84]: Times per day
+      - group "3 🌿 Lifestyle Your daily routine and wellbeing" [ref=e85]:
+        - generic [ref=e86]:
+          - generic [ref=e87]: "3"
+          - generic [ref=e88]:
+            - generic [ref=e89]: 🌿 Lifestyle
+            - generic [ref=e90]: Your daily routine and wellbeing
+        - generic [ref=e91]:
+          - generic [ref=e92]:
+            - generic [ref=e93]: Study time
+            - generic [ref=e94]:
+              - spinbutton "Study time" [ref=e95]
+              - generic: hrs
+            - generic [ref=e96]: Hours per day
+          - generic [ref=e97]:
+            - generic [ref=e98]: Physical activity
+            - generic [ref=e99]:
+              - spinbutton "Physical activity" [ref=e100]
+              - generic: hrs
+            - generic [ref=e101]: Hours per day
+          - generic [ref=e102]:
+            - generic [ref=e103]: Sleep
+            - generic [ref=e104]:
+              - spinbutton "Sleep" [ref=e105]
+              - generic: hrs
+            - generic [ref=e106]: Hours per night
+          - generic [ref=e107]:
+            - generic [ref=e108]: Stress level
+            - combobox "Stress level" [ref=e110] [cursor=pointer]:
+              - option "Select stress level" [disabled] [selected]
+              - option "Low"
+              - option "Medium"
+              - option "High"
+              - option "Very High"
+      - generic [ref=e111]:
+        - button "Clear" [disabled] [ref=e112]
+        - button "Predict my score →" [ref=e113] [cursor=pointer]
+    - complementary [ref=e114]:
+      - heading "Your result" [level=2] [ref=e115]
+      - generic [ref=e116]:
+        - generic [ref=e117]: 🧠
+        - paragraph [ref=e118]: Your estimated mental health score will appear here.
+        - paragraph [ref=e119]:
+          - text: Complete all three sections and press
+          - strong [ref=e120]: Predict my score
+          - text: .
+  - contentinfo [ref=e121]: Built with FastAPI, scikit-learn & React · For educational use only — not a medical diagnosis.
