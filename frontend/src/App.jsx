@@ -5,7 +5,8 @@ import PredictionForm from './components/PredictionForm.jsx'
 import PredictionResult from './components/PredictionResult.jsx'
 import './App.css'
 
-const API_URL = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000'
+// http://127.0.0.1:8000
+const API_URL = import.meta.env.VITE_API_URL || 'https://mental-health-score-predictor-by-ai-tu43.onrender.com/'
 
 export default function App() {
   const [result, setResult] = useState(null)
